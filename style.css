@@ -122,4 +122,25 @@ div {
 
 @media (prefers-reduced-motion: reduce) {
     .marquee__track { animation: none;}
+
+}
+
+@media (max-width: 768px) {
+
+  .box1 {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .marquee__item {
+    font-size: 1.2rem;
+  }
+
 }

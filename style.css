@@ -105,6 +105,7 @@ main {
     white-space: nowrap;
     /*OPTIONNEL: un peu d'espace*/
     padding: 8px 0;
+    text-align: center;
 }
 
 .marquee__track {
@@ -180,6 +181,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 

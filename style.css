@@ -132,7 +132,7 @@ div {
 @media (max-width: 768px) {
 
 .box2 {
-    width: 90%;
+    width: min(90%, 500px);
     margin: 0 auto;
 }
     
@@ -146,11 +146,13 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .marquee__item {
     font-size: 1.2rem;
 }
+
 
 
 

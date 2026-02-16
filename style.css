@@ -158,6 +158,7 @@ a {
 main, .box1, .box2 {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .flexbox1 {
@@ -181,6 +182,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 

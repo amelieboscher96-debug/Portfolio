@@ -116,7 +116,7 @@ main {
 
 .marquee__track {
     display: inline-flex;
-    align-items: center;
+    align-items: center !important;
     gap: 14px;
     will-change: transform;
     animation: marquee 12s linear infinite;
@@ -195,6 +195,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 

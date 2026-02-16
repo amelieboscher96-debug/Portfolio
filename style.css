@@ -23,7 +23,7 @@ body::before {
 
 body {
     font-family: 'Trebuchet MS';
-    min-height: 100vh;
+    min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
     font-size: 2vw;
     margin-left: 12vh;
@@ -141,6 +141,7 @@ h2 {
 .marquee__item {
     font-size: 1.2rem;
 }
+
 
 
 

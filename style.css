@@ -108,14 +108,13 @@ main {
 }
 
 .marquee {
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     /*OPTIONNEL: un peu d'espace*/
     padding: 8px 0;
     display: flex;
-    justify-content: center;
-    margin: center;
+    left: 50%;
 }
 
 .marquee__track {
@@ -201,6 +200,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 

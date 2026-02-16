@@ -25,9 +25,9 @@ body {
     font-family: 'Trebuchet MS';
     min-height: 100vh;
     color: rgba(25, 170, 214, 0.829);
-    font-size: clamp(1.5rem, 5vw, 3rem);
-    margin-left: 160px;
-    margin-right: 160px;
+    font-size: 2vw;
+    margin-left: 12vh;
+    margin-right: 12vh;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     position: relative;
@@ -141,6 +141,7 @@ h2 {
 .marquee__item {
     font-size: 1.2rem;
 }
+
 
 
 

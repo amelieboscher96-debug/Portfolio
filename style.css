@@ -8,9 +8,14 @@ a, button, input, textarea, select, label {
     
 }
 
+.box2 {
+    justify-content: center ;
+}
+
 nav {
     text-align: right;
 }
+
 
 
 body::before {
@@ -22,6 +27,7 @@ body::before {
     z-index: -1;
 }
 
+
 body {
     font-family: 'Trebuchet MS';
     min-height: 300vh;
@@ -31,7 +37,7 @@ body {
     padding: 0 12vh; /*desktop*/
     position: relative;
     font-weight: bold;
-    /* VH = 100% de la taille de l'écran (viwport height) */
+    /* VH = 100% de la taille de l'écran (viewport height) */
     /* min-height: 100vh; */
 }
 
@@ -112,18 +118,19 @@ main {
     overflow: hidden;
     white-space: nowrap;
     /*OPTIONNEL: un peu d'espace*/
-    padding: 8px 0;
+    justify-content: center;
+    padding: 8px 0px;
     display: flex;
-    left: 50%;
+    align-items: center;
 }
 
 .marquee__track {
     display: inline-flex;
-    align-items: center !important;
     gap: 14px;
     will-change: transform;
     animation: marquee 12s linear infinite;
-    justify-content: right;
+    width: max-content;
+    
 }
 
 .marquee__item {
@@ -134,12 +141,16 @@ main {
 }
 
 .marquee__dot {
-    opacity: 0.5;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
 }
 
 @keyframes marquee {
     from { transform: translateX(0);}
-    to { transform: translateX(-50%);}
+    to { transform: translateX(-10%);}
 }
 
 /*ACCESSIBILITE : stop l'animation si l'utilisateur préfère réduire */
@@ -200,6 +211,8 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
+
 
 
 

@@ -145,7 +145,7 @@ main {
 @media (max-width: 768px) {
 
 .logo {
-    font-size: 20px;
+    font-size: 2rem !important;
   }
     
 body {
@@ -190,6 +190,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 

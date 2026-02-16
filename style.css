@@ -1,0 +1,125 @@
+html, body {
+    cursor: url("./curseur.png") 16 16, auto;
+}
+
+/* Important: sur les éléments interactifs aussi*/
+a, button, input, textarea, select, label {
+    cursor: url("./curseur.png") 16 16, pointer;
+    
+}
+
+nav {
+    text-align: right;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset:0;
+    background:url(./water.jpg) no-repeat center/cover;
+    opacity: 1; /*change ici l'opacité*/
+    z-index: -1;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    min-height: 100vh;
+    color: rgba(25, 170, 214, 0.829);
+    font-size: 2vw;
+    margin-left: 160px;
+    margin-right: 160px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: relative;
+    font-weight: bold;
+    /* VH = 100% de la taille de l'écran (viwport height) */
+    /* min-height: 100vh; */
+}
+
+a {
+    color: hsl(188, 86%, 86%);
+    text-shadow: -1px 2px 11px #0502a7;
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+.slideUp {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0 !important;
+    text-decoration: none;
+    margin-left: -120px;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.box3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 5px 1px rgb(8, 75, 219);
+    font-size: 5vw;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 4vw;
+    
+}
+
+main {
+    border: 2px white;
+    background: rgba(161, 199, 255, 0.247);
+    border: 1px solid rgba(0, 89, 255, 0.651);
+    border-radius: 20px;
+    box-shadow: inset 11px -8px 11px 1px rgb(187, 255, 255);
+}
+
+div {
+    text-align: justify;
+    margin: 20px;
+    
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    /*OPTIONNEL: un peu d'espace*/
+    padding: 8px 0;
+}
+
+.marquee__track {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    will-change: transform;
+    animation: marquee 12s linear infinite;
+}
+
+.marquee__item {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(221, 169, 185);
+    -webkit-text-stroke: 0.7px rgb(97, 63, 63) !important;
+}
+
+.marquee__dot {
+    opacity: 0.5;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0);}
+    to { transform: translateX(-50%);}
+}
+
+/*ACCESSIBILITE : stop l'animation si l'utilisateur préfère réduire */
+
+@media (prefers-reduced-motion: reduce) {
+    .marquee__track { animation: none;}
+}

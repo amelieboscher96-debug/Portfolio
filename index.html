@@ -1,86 +1,73 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-            <title>Mon portefolio</title>
-            <link rel="stylesheet" href="style.css">            
-            <body>
+  <body>
+    <div class="flexbox1">
+      <header>
+        <div class="flexbox2">
+          <h1>PORTFOLIO</h1>
 
-                <div class="flexbox1">
+          <a class="logo" href="#">
+            <span class="slideUp">BOSCHER</span><br />
+            <span class="slideUp">Amelie</span><br />
+            <span class="slideUp">fr.</span><br />
+          </a>
 
-                <header>
-                    <div class="flexbox2">
-                    <strong><h1>PORTFOLIO</h1></strong>
+          <nav>
+            <a href="#apropos">À propos</a><br />
+            <a href="#projets">Projets</a><br />
+            <a href="#competences">Compétences</a><br />
+            <a href="#contact">Contact</a><br />
+          </nav>
+        </div>
+      </header>
 
-                    <a class="logo" href="#">
-                        <span class="slideUp">
-                            <span>BOSCHER</span>
-                            <br>
-                        </span>
-                        <span class="slideUp">
-                            <span>Amelie</span>
-                            <br>
-                        </span>
-                        <span class="slideUp">
-                            fr.
-                        </span>
-                        <br>
-                    </a>
+      <main class="box1">
+        <h2>Front End</h2>
 
-                    <nav>
-                        <a href="#apropos">À propos</a><br>
-                        <a href="#projets">Projets</a><br>
-                        <a href="#competences">Compétences</a><br>
-                        <a href="#contact">Contact</a><br>
-                    </nav>
-                    </div>
-                </header>
+        <div class="box2">
+          <div class="marquee" aria-label="Compétences">
+            <div class="marquee__track">
+              <span class="marquee__item">HTML</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">CSS</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">Javascript</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">Git</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">VS Code</span>
+              <span class="marquee__dot">•</span>
 
-                <main class="box1">
-                    <h2>Front End</h2>
-                    <div class="box2">
-                        
-                        <div class="marquee" aria-label="Compétences">
-                            <div class="marquee__track">
-                                <span class="marquee__item">HTML</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">CSS</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">Javascript</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">Git</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">VS Code</span>
-                                <span class="marquee__dot">•</span>
+              <span class="marquee__item">HTML</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">CSS</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">Javascript</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">Git</span>
+              <span class="marquee__dot">•</span>
+              <span class="marquee__item">VS Code</span>
+              <span class="marquee__dot">•</span>
+            </div>
+          </div>
 
-                                <!--DUPLICATION (pour la boucle parfaite)-->
-                                <span class="marquee__item">HTML</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">CSS</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">Javascript</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">Git</span>
-                                <span class="marquee__dot">•</span>
-                                <span class="marquee__item">VS Code</span>
-                                <span class="marquee__dot">•</span>
-                            </div>
-                        </div>
-                        
-                        <div class="box3">
+          <div class="box3">
+            <br />
+            <a class="btn" href="#projets">&lt;/CODE PROJECTS&gt;</a>
+          </div>
+        </div>
 
-                        
-                        <br/>
-                        <a class="btn" href="#projets"><i><</i><i>/</i>CODE PROJECTS<i>></i></a>
-                    </div>
-
-                    <section id="apropos">
-                        <h2>À propos</h2>
-                    </section>
-                </main>
-                </div>
-            </body>
-        </head>
-    </html>
+        <section id="apropos">
+          <h2>À propos</h2>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -86,7 +86,8 @@ main {
 
 div {
     text-align: justify;
-    margin: 20px;
+    margin-left: 12vh;
+    margin-right: 12vh;
     
 }
 
@@ -145,6 +146,7 @@ h2 {
 .marquee__item {
     font-size: 1.2rem;
 }
+
 
 
 

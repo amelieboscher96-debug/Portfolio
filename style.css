@@ -72,7 +72,7 @@ a {
 }*/
 
 .flexbox1 {
-    justify-content: center;
+    justify-content: left;
 }
 
 .box3 {
@@ -192,9 +192,7 @@ main, .box1, .box2 {
     justify-content: center;
 }
 
-.flexbox1 {
-    margin-left: 50%;
-}
+
 
 .slideUp {
     margin-left: 0;
@@ -220,5 +218,6 @@ img {
     width: 20%;
     height: 20%;
 }
+
 
 
